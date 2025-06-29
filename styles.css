@@ -226,20 +226,100 @@ nav .left-section {
   z-index: 5;
   
   width: 90%;
-  margin: 140px 60px;
+  margin: 129px 0px 0px 78px;
   height: 360px;
  
   
 
 }
 .hero-container-inner{
-  width: 40%;
+  width: 37%;
   height: 100%;
- 
+  
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   
 }
 .hero-container-logo-image{
-  width: 400px;
+  width: 362px;
+  height: 55px;
+}
+.hero-new-title{
+  width: 69%;
+  padding: 47px 0px 0px 10px;
+  
+}
+.hero-new-title-inner{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 31px;
+  line-height: 37px;
+  font-weight: 700;
+}
+.text-msi{
+  display: flex;
+  justify-content: center;
+  justify-content: row;
+}
+.text-para{
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  font-size: 21px;
+  font-weight:525;
+  line-height: 24px;
+  height: 50px;
+}
+.watch-now-button{
+  width: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 28px;
+   background: linear-gradient(to right, #ff0000, #a800ff);
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+
+}
+.watch-now-button:hover{
+  transform: scale(1.05);
+}
+.play-icon{
+  background-color: black;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  margin-left: -25px;
+  border-radius: 50%;
+}
+.play-icon>svg{
+  width: 28px;
+}
+.text-watch{
+  font-size: 31px;
+  font-weight: 700;
+}
+.play-button{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding: 38px 0px 0px 2px;
 }
