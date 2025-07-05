@@ -1,0 +1,216 @@
+.page-4 {
+  background-color: white;
+}
+.carrers-page {
+  width: 100%;
+  margin: 0;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left-section-carrers {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section-carrers {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.right-section-carrers > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carrers-container-inner {
+  width: 80%;
+  height: 90%;
+  margin-left: 0;
+}
+.carrers-main-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  height: 48px;
+  letter-spacing: -1.44px;
+  line-height: 48px;
+  margin-bottom: 19px;
+}
+.carrers-container-inner:nth-child(1) {
+  display: block;
+
+  width: 500px;
+  color: rgb(101, 100, 98);
+  font-size: 20px;
+  font-weight: 600;
+
+  font-style: Arial;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+.carrer-options-2-divs {
+  width: 100%;
+  height: 150px;
+  margin-top: 35px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 35px;
+}
+.careers-jobs-count {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(173, 172, 170, 0.2);
+  height: 100%;
+  width: 100%;
+  color: rgb(101, 100, 98);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.48px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.careers-jobs-count > span {
+  display: block;
+  padding-top: 40px;
+  font-size: 56px;
+  font-weight: 700;
+  height: 67px;
+  letter-spacing: -0.48px;
+  color: black;
+}
+.explore-careers-button > button {
+  background-color: rgb(209, 54, 58);
+  color: white;
+  box-sizing: border-box;
+  color: rgb(249, 249, 249);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.explore-careers-button > button:hover {
+  background-color: rgba(209, 54, 58, 0.8);
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(37, 36, 35);
+  width: 100%;
+  height: 25vh;
+
+  display: flex;
+  justify-content: center;
+}
+.footer-inner {
+  margin: 0px 20px 20px 20px 20px;
+  width: 97%;
+  height: 85%;
+  position: relative;
+  z-index: 1;
+}
+.content-center {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  padding: 20px 0px;
+}
+.footer-row {
+  height: 45%;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-col1 {
+  height: 100%;
+  width: 78%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-col2 {
+  height: 100%;
+  width: 22%;
+}
+.footer-navigation-lists {
+  width: 100%;
+  height: 100%;
+}
+.footer-col-inner {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 30px;
+}
+.list-unstyled {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer-navigation-lists {
+  margin-top: 10px;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.list-unstyled li {
+  white-space: nowrap;
+}
+
+.list-unstyled a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.list-unstyled a:hover {
+  color: #ccc;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.socials {
+  height: 30%;
+
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-social {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-social svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  transition: transform 0.2s;
+}
+
+.footer-social svg:hover {
+  transform: scale(1.1);
+}
